@@ -6,3 +6,13 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Local MDARIX repository and generated database/test artifacts are managed
+# inside the MDARIX-R1 repository, not by this parent workspace repository.
+MDARIX-R1/
+MDARIX-R1-BACKUPS/
+.pytest-tmp*/
+.pytest_cache/
+test-results/
+tmp/
+tmp_mapping_pdf/
